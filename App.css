@@ -1,0 +1,50 @@
+
+#left-box{
+  width: 30%;
+  background-color: rgb(241, 167, 167);
+  height: 100vh;
+  text-align: center;
+  display:inline-block;
+}
+#right-box{
+  width: 70%;
+  background-color: rgb(246, 246, 248);
+  display: block;
+  float: right;
+  height: 100vh
+}
+.input{
+  height: 10rem;
+  width: 30rem;
+  border: 0.3rem solid black;
+  border-radius: 1rem;
+}
+.input::placeholder{
+  text-align: center;
+  font-family: sans-serif;
+}
+.text-area{
+  margin-left: 1.5rem;
+  margin-top: 10rem;
+}
+.todo-insert{
+  margin-top: 15rem;
+}
+.s-btn{
+  margin-top: 1.5rem;
+}
+.todo-body{
+  border-bottom-style:ridge;
+}
+.todo-text{
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.line{
+  border-radius: 0.5rem;
+  background-color: rgb(132, 252, 132);
+}
+.clear{
+  border-radius: 0.5rem;
+  background-color: rgb(236, 131, 131);
+}
